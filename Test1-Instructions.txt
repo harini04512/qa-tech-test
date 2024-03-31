@@ -1,0 +1,11 @@
+This framework is designed to validate Product added on the cart page.
+
+Steps to run framework
+1.  npm init -y it will download all dependencies needed for the project. After running this package.json will be created.
+2. npm install cypress 
+Will install cypress and associated library. Node_module will be created
+3. npx cypress open 
+Will open cypress tool and can run tests from there 
+4. Alternate way to run test is to use script defined in package.json file I.e npm test 
+5. ⁠mocha comes with cypress and it act as test runner
+6. ⁠page objects folder comprises element locators and actions used to perform action on them

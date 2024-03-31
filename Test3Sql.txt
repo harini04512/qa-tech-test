@@ -1,0 +1,6 @@
+SELECT TOP 10 mo.customer_first_name, mo.customer_last_name, mo.customer_email 
+FROM magento_offer mo
+INNER JOIN magento_rule mr
+ON mo.rule_id = mr.rule_id
+where mo.offer_type = 'Staff'AND mr.created_in <= 7
+ORDER BY mo.customer_first_name;
